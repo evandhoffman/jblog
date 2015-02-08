@@ -1,0 +1,24 @@
+---
+title: VMWare is pretty cool.
+author: Evan Hoffman
+layout: post
+permalink: /2009/04/24/vmware-is-pretty-cool/
+categories:
+  - Uncategorized
+tags:
+  - vmware
+  - work
+---
+Over the past few months I&#8217;ve gotten to love VMWare. We had purchased a SAN around May 2008 for one project, and all the SAN vendors kept asking us if we did anything with virtualization. The first few times we kind of furrowed our brows and said no, but eventually I started wondering if this was something I should be looking into.
+
+<!--more-->
+
+I&#8217;d used some VMWare products before &#8211; the Workstation and the free VMWare Server product &#8211; and didn&#8217;t have great experiences. We tried using VMs for development environments but the performance was poor and there was a serious problem with the system clock in the VMs losing 2-3 seconds per real-time second; the clock skew was so bad that ntp couldn&#8217;t even set the clock, it diverged too quickly. The performance problems were largely our fault, I realize now: we tried running 3 or 4 VMs on a host with only 2 GB of memory (each VM wasn&#8217;t allocated that much), and the machine only had a single dual-core Opteron. Plus, the host machine was also serving as a dev Apache server for our main web app. This setup started out okay but it degraded over the course of about a year to the point that the VMs were basically unusable. We used VMs for a few other minor projects but after this initial project it was always something that made me crinkle my nose.
+
+Then last year with everyone talking about virtualization again I started reading up on it and a lot of the features seemed pretty impressive &#8211; so much so that it seemed too good to be true: near-native CPU performance, the ability to overcommit memory, the ability to transfer a running VM from one host to another (VMotion), and complete support for all the OSes we use. There were some indirect benefits too, like the ability to give all our machines what amounted to huge CPU upgrades &#8211; e.g. an old P4 Xeon 2.4 GHz box with 2 gigs ram would become a 3 GHz Xeon E5472 (a single core of one, anyway) with a 1600 MHz FSB and 2, 4, or 8 gigs of ram, so even with a performance penalty for virtualization it would be a sizable improvement. Of course, there&#8217;s also server consolidation, which would allow us to transform 10 or more underutilized physical servers into virtual machines running on a single host. Plus we also get the ability to roll out a new server with a couple of clicks &#8211; a blank slate, or we can clone an existing one from a template.
+
+Another major factor for us was the facilitation of setting up DR. We&#8217;d been pondering for months how to synchronize machines in two locations, including multiple databases. Well, our SAN handles the bit copying, but that&#8217;s just the &#8220;business&#8221; data for the most part; we&#8217;d still have to copy config data from each machine from one site to the other. VMWare solves this because each machine is essentially just another file. The SAN also provides snapshotting of any volume, and since each VM is just a file, this essentially allows us to roll back any VM to any previous state for which we have a snapshot. (Yes, I realize VMWare has its own snapshot functionality.)
+
+There were some other factors to consider but ultimately we decided to go ahead. We purchased Virtual Infrastructure from VMWare and set it up on 3 hosts. Surprisingly, so far it has seemed to live up to its claims. It&#8217;s made deployment and new projects much easier and the performance of each VM is so good that thoughts of a performance penalty have pretty much vanished. The only real problem I&#8217;ve encountered performance-wise is when trying put a large (~1 TB) database on a VM. I don&#8217;t know if it was the IO or memory or CPU but the performance was terrible, and I ended up moving the DB back to a physical machine and there were no performance issues.
+
+Overall I&#8217;m pretty happy with VMWare&#8217;s VI product, and am looking forward to the improvements announced for vSphere &#8211; thin provisioning and the end of the 2 TB volume limit are the biggest ones for me. This month we were able to remove 17 physical servers from the datacenter, with about 10 or 12 of them having been virtualized (P2V) or replaced with fresh VMs. Some of these were &#8220;ancient&#8221; FC1 and FC3 machines with various hardware issues so it was great getting them out and replacing them with fresh CentOS 5 installs. But just the fact that we were able to get a bunch of physical servers out of the datacenter and decrease our space and power footprints is big for us; we were able to move out of a full cabinet, saving thousands of dollars annually. So, aside from the &#8220;putting all your eggs in one basket&#8221; thing, which we are working on mitigating, VMWare has been a win for us all around &#8211; so far, anyway.

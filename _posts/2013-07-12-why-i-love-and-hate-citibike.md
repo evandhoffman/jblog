@@ -1,0 +1,23 @@
+---
+title: Why I love and hate Citibike
+author: Evan Hoffman
+layout: post
+permalink: /2013/07/12/why-i-love-and-hate-citibike/
+categories:
+  - Uncategorized
+tags:
+  - citibike
+  - commute
+  - lirr
+  - manhattan
+  - nyc
+---
+When I first heard about Citibike, I had just started working in Manhattan. I walk about ten blocks each way between Penn Station and my office on 6th Ave &#038; West 23rd Street, which takes about 15 minutes or so, so the prospect of reducing that time was pretty appealing. Also, I should add that I just fundamentally hate walking. It&#8217;s just too slow. Before I got a car at the age of 17 I rode my bike everywhere. When I went to college I rode my bike to every class, even in 3-foot snowdrifts of a New Hampshire winter. After I took this job I looked into some folding bikes that I could actually bring with me on the train to work. That&#8217;s kind of a huge pain in the ass, plus the folding bikes start at around $700, so that wasn&#8217;t realistic for me. So I was pretty excited at the prospect of Citibike. 
+
+After it rolled out a few weeks ago, I did a 24-hour rental and rode from 33rd &#038; 7th Ave (across from Penn) down to Broadway &#038; 24th. It was fun and it was really quick. Actually, I didn&#8217;t save much wall time over just walking, but that was due to the time I spent getting the bike and getting used to riding a bike down 7th ave and then down Broadway, which was a bit jarring my first time. But that test was a enough for me to decide it was worth the $95 to sign up for a year.
+
+My key came over the July 4th weekend and I&#8217;ve attempted to bike from Penn to the office every day this week, and back up to Penn in the afternoon. For the most part, I love it. The main thing I don&#8217;t love is exactly what I suspected would be the entire program&#8217;s downfall: lack of bikes where you need them, when you need them. Today&#8217;s Friday, and this is the second morning this week where there hasn&#8217;t been a single functional bike in a 5 block radius of Penn Station when I got in. On the LIRR on my way in, the Citibike app showed 12 bikes available at the 7th Ave &#038; 31st Street station. By the time I got to street level (15 minutes later) there was only one bike in the dock and it had a red light indicating it was broken or otherwise unavailable. This was frustrating, but I checked the app and it showed there were 5 bikes available at the Broadway &#038; 29th Street station, so I walked over there. This is kind of out of the way, but even biking 5 blocks is worth it (especially since I paid for the pass, and I like to use what I paid for). When I got there, one of the bikes was completely flat and the other four showed red lights. So even though there were 5 physical bikes there, as the app said, there were none I could get. I understand that things break, and as long as they get fixed I don&#8217;t have a problem with that, but if the dock knows the bike is broken (as evidenced by the red LED) why show it in the app?<figure id="attachment_2194" style="width: 200px;" class="wp-caption aligncenter">
+
+<a href="http://www.evanhoffman.com/evan/2013/07/12/why-i-love-and-hate-citibike/photo/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.evanhoffman.com/evan/2013/07/12/why-i-love-and-hate-citibike/photo/', '']);"  rel="attachment wp-att-2194"><img src="http://www.evanhoffman.com/evan/wp-content/uploads/2013/07/photo-200x300.png" alt="Screenshot of the citibike app showing no bikes available between 34th&7th and 23rd&6th." width="200" height="300" class="size-medium wp-image-2194" /></a><figcaption class="wp-caption-text">Screenshot of the citibike app showing no bikes available between 34th&#038;7th and 23rd&#038;6th.</figcaption></figure> 
+
+After that, I just decided to walk the rest of the way since there were no other stations on my way. Maybe &#8220;hate&#8221; is too strong of a word; I still think Citibike is a great idea and I think they&#8217;ve done a great job for the most part, but none of that helps me if I can&#8217;t actually get a bike when I want one. I don&#8217;t know if there&#8217;s a solution to this, maybe they could incentivize people to drop bikes off at high-traffic sites during off-peak times so they&#8217;re available during peak times? Or maybe they just need more docks at the major hub areas. In any case, on my walk in this morning I started reconsidering buying my own folding bike.

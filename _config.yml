@@ -1,0 +1,60 @@
+# Site settings
+title: Evan's Blog
+email: evandhoffman@gmail.com
+baseurl: "/evan/" # the subpath of your site, e.g. /blog/
+url: "http://www.evanhoffman.com/evan" # the base hostname & protocol for your site
+twitter_username: evanhoffman
+github_username:  evandhoffman
+
+# Build settings
+markdown: kramdown
+disqus_shortname: evanhoffman
+comments: true
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: default
+            comments: true
+
+# Owner/author information
+owner:
+  name:           Evan D. Hoffman
+  bio:            ""
+  email:          evandhoffman@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: evanhoffman
+  github: evandhoffman
+  linkedin: evanhoffman
+  instagram: evandhoffman   
+# Analytics and webmaster tools stuff goes here
+google_analytics:  UA-10430294-1
+google_verify: 
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+timezone:    America/New_York
+future:      true
+highlighter:    pygments
+# Amount of posts to show on home page
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
