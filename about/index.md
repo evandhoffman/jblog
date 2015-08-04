@@ -22,7 +22,7 @@ I&#8217;m currently a <a href="http://devopsreactions.tumblr.com/" onclick="_gaq
   *  <a href="mailto:evandhoffman@gmail.com" onclick="_gaq.push(['_trackEvent','mailto','evandhoffman@gmail.com']);" >evandhoffman@gmail.com</a>
   * <a href="http://twitter.com/EvanHoffman" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://twitter.com/EvanHoffman', '@EvanHoffman']);" >@EvanHoffman</a>
   * <a href="http://www.linkedin.com/in/evanhoffman" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.linkedin.com/in/evanhoffman', 'LinkedIn']);" >LinkedIn</a>
-  * <a href="https://docs.google.com/document/d/1cDuSejaomqAHS6NuHQUAAHPsDvDNsS4bHeLTra53mDg/pub" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://docs.google.com/document/d/1cDuSejaomqAHS6NuHQUAAHPsDvDNsS4bHeLTra53mDg/pub', 'Resumé']);" >Resumé</a> (Google Doc)
+  * <a href="/assets/pdf/Hoffman_Evan_Resume_2015.pdf">My Resume (2015)</a>
   * <a href="http://instagram.com/evandhoffman" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://instagram.com/evandhoffman', 'Instagram']);" >Instagram</a>
   * <a href="http://goo.gl/ewbwa" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://goo.gl/ewbwa', 'github']);" >github</a>, <a href="http://goo.gl/EBTxW" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://goo.gl/EBTxW', 'gists']);" >gists</a>.
 
